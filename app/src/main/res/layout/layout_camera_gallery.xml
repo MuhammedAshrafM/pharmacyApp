@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a way to get an image"
+        android:textColor="@color/yellow"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_margin="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/backGround"
+            android:layout_weight="1"
+            android:layout_margin="25dp"
+            android:text="Camera"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/backGround"
+            android:layout_weight="1"
+            android:layout_margin="25dp"
+            android:text="Gallery"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+</LinearLayout>

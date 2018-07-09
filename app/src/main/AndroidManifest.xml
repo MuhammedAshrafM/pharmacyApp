@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.muhammed.pharmacyapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="false">
+    </uses-feature>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+
+
+        <activity
+            android:name=".LogInActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_home" />
+        <activity
+            android:name=".EmployeesActivity"
+            android:label="@string/title_activity_employee"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile" />
+        <activity
+            android:name=".AddEmployeeActivity"
+            android:label="@string/title_activity_employee_add" />
+        <activity
+            android:name=".EditEmployeeActivity"
+            android:label="@string/title_activity_employee_edit" />
+        <activity
+            android:name=".DrugsActivity"
+            android:label="@string/title_activity_drugs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditDrugActivity"
+            android:label="@string/title_activity_drug_edit" />
+        <activity
+            android:name=".AddDrugActivity"
+            android:label="@string/title_activity_drug_add" />
+        <activity
+            android:name=".ScanActivity"
+            android:label="@string/title_activity_scan" />
+        <activity
+            android:name=".SalesActivity"
+            android:label="@string/title_activity_sales"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SaleBillsActivity"
+            android:label="@string/title_activity_sale_bills" />
+        <activity
+            android:name=".EditSaleBillActivity"
+            android:label="@string/title_activity_edit_sale_bill" />
+        <activity
+            android:name=".AddSaleBillActivity"
+            android:label="@string/title_activity_add_sale_bill" />
+        <activity
+            android:name=".PrintBillActivity"
+            android:label="@string/title_activity_print_bill" />
+        <activity
+            android:name=".PurchasesActivity"
+            android:label="@string/title_activity_purchases"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FullScreenImage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddPurchaseBillActivity"
+            android:label="@string/title_activity_add_purchase_bill" />
+        <activity
+            android:name=".PurchaseBillsActivity"
+            android:label="@string/title_activity_purchase_bills" />
+        <activity
+            android:name=".EditPurchaseBillActivity"
+            android:label="@string/title_activity_edit_purchase_bill"></activity>
+    </application>
+
+</manifest>

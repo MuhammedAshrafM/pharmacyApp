@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">PharmacyApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="userName">UserName</string>
+    <string name="password">Password</string>
+    <string name="log_in">Login</string>
+    <string name="log_out">Logout</string>
+
+    <string name="wait">Please Wait</string>
+    <string name="loginSuccessfully">Login Successfully</string>
+    <string name="loginFailed">userName and password are incorrect</string>
+
+    <string name="err_msg_required">Valid Input Required</string>
+    <string name="err_msg_name">Please Enter a Valid Name</string>
+    <string name="err_msg_birthday">Please Enter a Valid Birthday</string>
+    <string name="err_msg_address">Please Enter a Valid Address</string>
+    <string name="err_msg_phone">Please Enter a Valid Phone</string>
+    <string name="err_msg_user_name">Please Enter a Valid userName</string>
+    <string name="err_msg_password">Please Enter a Password</string>
+    <string name="err_msg_password_beginning_space">Please Enter a Password Without Space in The Beginning</string>
+    <string name="err_msg_password_end_spaces">Please Enter a Password Without Space in The End</string>
+    <string name="title_activity_employee">Employees</string>
+    <string name="title_activity_employee_add">Add Employee</string>
+    <string name="title_activity_employee_edit">Edit Employee</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="confirmDelete">Are you sure you want the deleting?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirmLogOut">Do you want to sign out</string>
+
+
+    <string name="name">Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="salary">Salary</string>
+    <string name="submit">Submit</string>
+
+    <string name="title_activity_drugs">Drugs</string>
+    <string name="title_activity_scan">QR &amp; Barcode Code Scanner</string>
+    <string name="title_activity_drug_add">Add Drug</string>
+    <string name="title_activity_drug_edit">Edit Drug</string>
+
+
+    <string name="barcode">Barcode</string>
+    <string name="englishName">English Name</string>
+    <string name="arabicName">Arabic Name</string>
+    <string name="amount">Amount</string>
+    <string name="numBar">Num Bar</string>
+    <string name="price">Price</string>
+    <string name="discount">Discount %</string>
+    <string name="productionDate">Production Date</string>
+    <string name="expiryDate">Expiry Date</string>
+
+    <string name="search">Search</string>
+
+    <string name="count">Count</string>
+    <string name="monetary">Monetary</string>
+    <string name="visa">Visa</string>
+    <string name="viewBill">View Bill</string>
+
+    <string-array name="drugDepartments">
+
+        <item>Department</item>
+        <item>Capsules</item>
+        <item>Pills</item>
+        <item>suppository</item>
+        <item>Syrup</item>
+        <item>Tube</item>
+        <item>Injections</item>
+        <item>Ampoules</item>
+        <item>plaster</item>
+        <item>Cosmetics</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="paymentWay">
+        <item>Payment Way</item>
+        <item>Monetary</item>
+        <item>Visa</item>
+    </string-array>
+
+
+    <string name="title_activity_sales">Bills of Sale</string>
+    <string name="title_activity_add_sale_bill">Add Sale Bill</string>
+    <string name="title_activity_edit_sale_bill">Edit Sale Bill</string>
+    <string name="title_activity_sale_bills">All Bills</string>
+    <string name="title_activity_print_bill">Print Bill</string>
+    <string name="title_activity_purchases">Bills of Purchase</string>
+    <string name="title_activity_add_purchase_bill">Add Purchase Bill</string>
+    <string name="title_activity_purchase_bills">All Bills</string>
+    <string name="title_activity_edit_purchase_bill">Edit Purchase Bill</string>
+
+
+</resources>

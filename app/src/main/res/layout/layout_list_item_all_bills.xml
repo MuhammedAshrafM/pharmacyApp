@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/barcodeDrug"
+                    android:textSize="15dp"
+                    android:padding="2dp"
+                    android:layout_weight="1"
+                    android:textStyle="normal"
+                    android:text="barcodeDrug"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_gravity="start"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/englishNameDrug"
+                    android:text="englishNameDrug"
+                    android:textSize="15dp"
+                    android:padding="2dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:layout_gravity="start" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/countDrug"
+                    android:text="countDrug"
+                    android:textSize="12dp"
+                    android:padding="2dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:layout_gravity="end" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/priceDrug"
+                    android:text="priceDrug"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:padding="2dp"
+                    android:layout_weight="1"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:layout_gravity="end" />
+            </LinearLayout>
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/checkBox"
+                android:layout_margin="5dp"
+                android:padding="2dp"
+                android:shadowColor="@color/backGround"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"/>
+
+
+</LinearLayout>

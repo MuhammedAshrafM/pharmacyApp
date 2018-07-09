@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/picture"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:layout_margin="5dp"
+                android:src="@color/gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/name"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/type"
+                    android:text="@string/salary"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:gravity="start" />
+            </LinearLayout>
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/checkBox"
+                android:layout_margin="5dp"
+                android:shadowColor="@color/backGround"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"/>
+
+
+</LinearLayout>

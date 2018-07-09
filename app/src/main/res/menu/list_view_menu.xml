@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete"
+        android:icon="@mipmap/ic_launcher_delete_round"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+    <item
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@mipmap/ic_launcher_search_round"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.widget.SearchView">
+    </item>
+</menu>
